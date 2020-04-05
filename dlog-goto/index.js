@@ -16,7 +16,7 @@ var $dlgGoto = (function(){
         </div>
       </div>`;
   var $dlg=$(html),
-    $titleBar=$dlg.find('.titlebar'),
+    $titleBar=$dlg.find('.titlebar'),  
     $cancle = $dlg.find('.btn-cancel'),
     $close = $dlg.find('.close-btn'),
    cfg={

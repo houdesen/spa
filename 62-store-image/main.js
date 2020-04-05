@@ -17,7 +17,7 @@ $btn.click(function(){
   $tmpImg.attr("src",url);
 })
 $tmpImg.load(function() {
-  //create canvas
+  //create canvas 
   var can =$('<canvas>').get(0);
   var ctx = can.getContext('2d');
   ctx.width=$tmpImg.get(0).width;
